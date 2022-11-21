@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&family=Rubik+Glitch&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  background-color: #121212;
+  color: #f0f8ff;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+.logoContainer {
+  align-items: center;
+  margin-right: 15px;
+}
+
+.logoSVG {
+  width: 40px;
+  filter: hue-rotate(90deg);
+}
+
+.IconSVG {
+  height: 35px;
+}
+
+.logoText {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.ntTexto {
+  font-family: "Rubik Glitch", cursive;
+  font-size: 30px;
+}
+
+.menuItems ul {
+  display: flex;
+}
+
+.menuItems ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+  margin: 0 2px 0 2px;
+  padding: 0 20px 0 20px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  border-bottom: solid transparent 5px;
+  border-image: linear-gradient(
+    90deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(8, 135, 170, 1) 100%
+  );
+  border-image-slice: 1;
+  transition: background-color 1.2s;
+}
+.menuItems ul li:hover {
+  background: rgb(34, 193, 195);
+  background-color: linear-gradient(
+    90deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(8, 135, 170, 1) 100%
+  );
+}
+
+.ellipsisIcon {
+  height: 18px;
+}
+
+.loginContainer ul {
+  display: flex;
+}
+
+.loginContainer ul li {
+  list-style: none;
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+  margin: 0 2px 0 2px;
+  padding: 0 20px 0 20px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  border-radius: 4px;
+}
+
+.uploadColor {
+  background-color: #6e4fff;
+}
+
+.createColor {
+  background-color: #8a3cff;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchContainer input {
+  width: 990px;
+  height: 55px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-size: 20px;
+  border: transparent;
+  padding-left: 10px;
+  background: url(../img/searchIcon.png) right center / 55px 55px no-repeat
+    scroll rgb(255, 255, 255);
+}
+
+.searchContainer input:focus {
+  outline: none;
+}
+
+.searchContainer input:hover {
+  border: transparent;
+}
+
+.banner {
+  margin-top: 8px;
+}
+
+.banner img {
+  width: 1000px;
+}
+
+.searchInfo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 1000px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.reportBotton {
+  margin-left: 10px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: #2e2e2e;
+  margin-bottom: 5px;
+}
+
+.reportBotton:hover {
+  background-color: #5c5c5c;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.amountGifs {
+  font-size: 15px;
+  color: #a6a6a6;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.gif {
+  width: 248px;
+  border-radius: 5px;
+}
+
+#gifsContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 1044px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+}
+
+.column img {
+  margin: 5px 5px 5px 5px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Giphy'nt</title>
+  </head>
+  <body>
+    <nav>
+      <a href="/">
+        <div class="logoContainer">
+          <img src="./img/giphyLogo.svg" class="logoSVG" alt="logo-gyphint" />
+          <img src="./img/gyphyIcon.svg" class="IconSVG" alt="logo-gyphint" />
+          <span class="ntTexto">n't</span>
+        </div>
+      </a>
+      <div class="menuItems">
+        <ul>
+          <li>Reactions</li>
+          <li>Entertainment</li>
+          <li>Sports</li>
+          <li>Stickers</li>
+          <li>Artist</li>
+          <li><img class="ellipsisIcon" src="./img/ellipsisIcon.svg" /></li>
+        </ul>
+      </div>
+      <div class="loginContainer">
+        <ul>
+          <li class="uploadColor">Upload</li>
+          <li class="createColor">Create</li>
+        </ul>
+      </div>
+    </nav>
+    <section class="searchContainer">
+      <input
+        autocomplete="off"
+        autocapitalize="off"
+        autocorrect="off"
+        id="input"
+      />
+    </section>
+    <div class="container">
+      <section class="searchInfo">
+        <div class="title">world cup</div>
+        <div class="reportBotton">
+          <img src="./img/flagIcon.svg" />
+        </div>
+        <div class="amountGifs">5,452 GIFs</div>
+      </section>
+    </div>
+    <div class="container">
+      <div id="gifsContainer">
+        <div class="column" id="firstColumn"></div>
+        <div class="column" id="secondColumn"></div>
+        <div class="column" id="thirdColumn"></div>
+        <div class="column" id="fourColumn"></div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/search.js"></script>
+</html>
