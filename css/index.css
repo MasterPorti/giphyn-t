@@ -148,6 +148,7 @@ a {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 40px;
+  margin-top: 15px;
 }
 
 .reportBotton {
@@ -197,4 +198,14 @@ a {
 
 .column img {
   margin: 5px 5px 5px 5px;
+}
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.trending {
+  width: 1000px;
+  background-color: #8a3cff;
 }
